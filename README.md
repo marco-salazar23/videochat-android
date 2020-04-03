@@ -5,7 +5,9 @@ This simple app demonstrates the use use of WebRTC. It allows the communication 
 You need to create a Firebase project and add the `google-services.json` file to the app directory.
 
 ## Running the project
-Once you have installed all the dependencies, you can run the project.
+Once you have installed all the dependencies, you can run the project. 
+
+Keep in mind that there's no support for background functionality. The app only works on foreground. 
 
 ## Credits
 The signaling part of the app is based on the [Firebase + WebRTC Codelab](https://webrtc.org/getting-started/firebase-rtc-codelab), which is a great intro into WebRTC.
