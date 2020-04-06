@@ -69,6 +69,9 @@ public class MainViewModel extends ViewModel {
         db.collection(USERS)
                 .document(uuid)
                 .set(usernameDict, SetOptions.merge());
+        
+        getUsers();
+        getCalls();
     }
 
 
